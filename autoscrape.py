@@ -3,6 +3,7 @@ import requests
 import time
 import json
 
+#casey was here
 def soupify(url):
     req = requests.get(url)
     content = req.text
