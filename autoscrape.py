@@ -3,8 +3,7 @@ import requests
 import time
 import json
 
-#testing the git
-#testing it but better
+
 def soupify(url):
     req = requests.get(url)
     content = req.text
